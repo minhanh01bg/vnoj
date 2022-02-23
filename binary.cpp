@@ -101,7 +101,7 @@ signed main()
         // dp
         memset(f, 0, sizeof f);
         f[0][0][0][0] = 1;
-        // f(xây dựng i chữ số,kiếm tra nó có nhỏ hơn n hay chưa,có k sô 0 thỏa mãn,có lớn hơn 0 hay không)
+        // f(xây dựng i chữ số,kiếm tra nó có nhỏ hơn n hay bằng n,có k sô 0 thỏa mãn,có lớn hơn 0 hay không)
         // f(i, lower, k, > 0)
         for (int i = 0; i < bits.size(); i++)
         {

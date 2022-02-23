@@ -66,7 +66,8 @@ const int MX = 5e4 + 7;
 const ll INF = 1e18;
 const int NM = 1e6 + 7;
 const ldb PI = acos((ldb)-1);
-const int dx[4] = {1, 0, -1, 0}, dy[4] = {0, 1, 0, -1}; // for every grid problem!!
+const int dx[4] = {1, 0, -1, 0}, 
+          dy[4] = {0, 1, 0, -1}; // for every grid problem!!
 /*_______________________________________MY CODE_____________________________________*/
 //
 
